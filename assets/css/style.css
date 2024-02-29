@@ -675,6 +675,7 @@ ul {
     top: 0;
     right: -4%;
 }
+
 .utility-ellipse1 {
     display: flex;
     height: 228px;
@@ -685,6 +686,7 @@ ul {
     top: 0;
     left: -4%;
 }
+
 .utility-ellipse3 {
     display: flex;
     height: 228px;
@@ -695,6 +697,7 @@ ul {
     bottom: 0;
     left: -4%;
 }
+
 .utility-ellipse4 {
     display: flex;
     height: 228px;
@@ -750,22 +753,26 @@ ul {
     right: -4%;
     z-index: 2;
 }
-.utility-circular2{
+
+.utility-circular2 {
     position: absolute;
     top: 10%;
     right: -10%;
 }
-.utility-circular1{
+
+.utility-circular1 {
     position: absolute;
     bottom: 10%;
     right: -10%;
 }
-.block-circular1{
+
+.block-circular1 {
     position: absolute;
     top: 10%;
     right: -10%;
 }
-.block-circular2{
+
+.block-circular2 {
     position: absolute;
     bottom: 10%;
     left: -10%;
@@ -848,7 +855,7 @@ ul {
     }
 
     .min-h-header {
-        min-height: 810px;
+        min-height: 760px;
     }
 
     .py-lg-30 {
