@@ -151,12 +151,12 @@ ul {
     padding-right: 32px;
     border-radius: 12px;
     transition: .4s;
-    outline: 3px solid transparent;
+    border: 3px solid transparent;
 }
 
 .common-btn:hover {
     background-color: transparent !important;
-    outline: 3px solid var(--blue);
+    border: 3px solid var(--blue);
     color: var(--blue) !important;
 }
 
