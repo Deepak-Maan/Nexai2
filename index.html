@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NexAI</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-black overflow_hidden">
+  <section class="bg-header min-h-header">
+    <div class="container header-container">
+      <nav class="d-flex justify-content-between align-items-center pt-3 py-lg-30 ">
+        <ul class="m-0 p-0 d-flex align-items-center gap-20 w-60 justify-content-lg-end mobileView">
+          <li><a onclick="removeOverflowHidden()" class="font-poppins fw-normal fs-base lh-2 text-white navUnderline"
+              href="#home">Home</a>
+          </li>
+          <li><a onclick="removeOverflowHidden()" class="font-poppins fw-normal fs-base lh-2 text-white navUnderline"
+              href="#marketplace">Marketplace</a>
+          </li>
+          <li><a onclick="removeOverflowHidden()" class="font-poppins fw-normal fs-base lh-2 text-white navUnderline"
+              href="#about">About</a>
+          </li>
+          <li><a onclick="removeOverflowHidden()" class="font-poppins fw-normal fs-base lh-2 text-white navUnderline"
+              href="#nexchat">NexChat</a></li>
+          <li><a onclick="removeOverflowHidden()" class="font-poppins fw-normal fs-base lh-2 text-white navUnderline"
+              href="#token">Tokens</a>
+          </li>
+        </ul>
+        <button class="common-btn bg-blue fs-lg fw-bold me-5 font-recharge">Sign Up</button>
+        <div class="d-block d-lg-none">
+          <label class="flex flex-col gap-2 menu  position-relative"><span class="span1"></span><span
+              class="span2"></span><span class="span3"></span></label>
+        </div>
+      </nav>
+    </div>
+    <div id="home" class="header-container container pt-2">
+      <h1 class="max-w-577 fs-xl text-white font-recharge fw-bold pt-5 mt-lg-5 pb-3"><span
+          class="text-blue">Nexai</span> is an advanced AI-powered home assistant</h1>
+      <p class="text-grey fw-normal font-poppins fs-sm1">Etiam viverra nec libero a. A id id tempus molestie sed.
+        Fringilla odio.</p>
+      <button class="common-btn bg-blue text-black fs-md fw-bold font-recharge mt-2 mt-md-3 mt-lg-5">Know More</button>
+    </div>
+  </section>
+  <!-- assistant section -->
+  <section class="pt-4 mt-2 position-relative overflow-x-clip">
+    <div class="assistant-ellipse1 d-none d-lg-flex "></div>
+    <div class="assistant-ellipse2 d-none d-lg-flex"></div>
+    <div class="container assistant-container pt-lg-5">
+      <div class="row">
+        <div class="col-lg-6 position-relative overflow-x-clip">
+          <img class="w-100 pb-4 lg-pb-0" src="./assets/images/assistant-img.png" alt="assistant-img">
+        </div>
+        <div class="col-lg-6 ps-lg-5">
+          <h2 class="text-blue fs-lg1 fw-700 max-w-517 font-recharge pb-3">Ai-Powered Home Assistant</h2>
+          <p class="max-w-517 fs-sm1 fw-normal text-grey font-poppins">Nexai is an advanced AI-powered home assistant
+            that brings the future to your fingertips. With its ability
+            to engage in natural, fluent conversations in over 15 languages,</p>
+          <p class="max-w-517 fs-sm1 fw-normal text-grey font-poppins pb-2">Nexai offers an incredibly futuristic
+            experience.
+            It can take the initiative to ask about your day,
+            schedule meetings, provide timely reminders</p>
+          <p class="max-w-517 fs-sm1 fw-normal text-grey font-poppins pb-2">assist with cooking by suggesting
+            ingredients,
+            track your fitness and nutrition goals, and even handle bill
+            payments.</p>
+          <button class="common-btn bg-blue text-black fs-md fw-bold font-recharge mt-4">Learn More</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- unique features -->
+  <section id="features" class="mx-auto pt-5 mt-4">
+    <div class="max-w-1340 mx-auto features pt-md-4 mt-lg-5 overflow-hidden position-relative ">
+      <div class="features-ellipse1 d-none d-lg-flex"></div>
+      <div class="features-ellipse2 d-none d-lg-flex"></div>
+      <h2 class="fs-lg1 fw-bold font-recharge text-white text-center pt-4 pt-lg-5 mt-lg-2">Unique features</h2>
+      <p class="max-w-397 mx-auto text-center text-grey fw-normal fs-sm1 font-poppins pt-3 pb-4 mb-2">ability to engage
+        in
+        natural, fluent conversations in over 15 languages, </p>
+
+      <div class="row h-496 overflow-y-scroll my-scroll pt-2 mt-lg-5 mt-2 ">
+        <div class="col-lg-6">
+          <div class="d-flex flex-column gap-5 gap-sm-0 align-items-center">
+            <div class="features-card  mb-lg-200 mb-sm-50 ">
+              <span class="pb-2"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0 13.3333V1.90476H3.84154V6.38095C5.47419 4.34921 7.46731 2.77778 9.82089 1.66667C12.1745 0.555556 14.6631 0 17.2869 0C22.0888 0 26.1705 1.66667 29.5318 5C32.8932 8.33333 34.5738 12.381 34.5738 17.1429H30.7323C30.7323 13.4286 29.4275 10.2775 26.8178 7.68952C24.2081 5.10159 21.0311 3.80825 17.2869 3.80952C15.078 3.80952 13.0132 4.31746 11.0924 5.33333C9.17167 6.34921 7.55502 7.74603 6.2425 9.52381H11.5246V13.3333H0ZM0.0960383 19.0476H4.03361C4.41777 22 5.64258 24.5003 7.70804 26.5486C9.77351 28.5968 12.2462 29.8425 15.126 30.2857L17.431 34.2857C13.0132 34.2857 9.13966 32.8336 5.81032 29.9295C2.48099 27.0254 0.57623 23.3981 0.0960383 19.0476ZM19.88 22.381L15.3661 17.9048V7.61905H19.2077V16.381L21.8968 19.0476L19.88 22.381ZM28.7635 40L28.1873 37.1429C27.8031 36.9841 27.4427 36.8171 27.1059 36.6419C26.7691 36.4667 26.4253 36.2527 26.0744 36L23.2893 36.8571L21.3685 33.619L23.5774 31.7143C23.5134 31.3016 23.4814 30.8889 23.4814 30.4762C23.4814 30.0635 23.5134 29.6508 23.5774 29.2381L21.3685 27.3333L23.2893 24.0952L26.0744 24.9524C26.4266 24.6984 26.7704 24.4844 27.1059 24.3105C27.4414 24.1365 27.8018 23.9695 28.1873 23.8095L28.7635 20.9524H32.605L33.1813 23.8095C33.5654 23.9683 33.9336 24.1511 34.2857 24.3581C34.6379 24.5651 34.974 24.7949 35.2941 25.0476L38.0792 24.0952L40 27.4286L37.7911 29.3333C37.8551 29.746 37.8872 30.1429 37.8872 30.5238C37.8872 30.9048 37.8551 31.3016 37.7911 31.7143L40 33.619L38.0792 36.8571L35.2941 36C34.942 36.254 34.5982 36.4686 34.2627 36.6438C33.9272 36.819 33.5667 36.9854 33.1813 37.1429L32.605 40H28.7635ZM30.6843 34.2857C31.7407 34.2857 32.6454 33.9124 33.3983 33.1657C34.1513 32.419 34.5271 31.5225 34.5258 30.4762C34.5258 29.4286 34.1493 28.5314 33.3964 27.7848C32.6435 27.0381 31.7401 26.6654 30.6862 26.6667C29.6298 26.6667 28.7251 27.04 27.9721 27.7867C27.2192 28.5333 26.8434 29.4298 26.8447 30.4762C26.8447 31.5238 27.2211 32.421 27.9741 33.1676C28.727 33.9143 29.6291 34.287 30.6843 34.2857Z"
+                    fill="black" />
+                </svg>
+              </span>
+              <h3 class="pt-4 fs-md1 fw-bold font-recharge text-black">Remote Access and File Management</h3>
+              <p class="fs-sm1 fw-normal font-poppins text-black"> Imagine you're at work, and you realize you forgot to
+                bring an important file stored on your desktop
+                computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and
+                request access to your computer. </p>
+            </div>
+            <div class="features-card">
+              <span class="pb-2"><svg width="51" height="46" viewBox="0 0 51 46" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M35.6243 39.5715H23.2491V30.4287H38.9993V21.2859H47.9995V39.5715H42.3744L38.9993 43L35.6243 39.5715Z"
+                    stroke="black" stroke-width="4.57138" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M3 3H39.0006V30.4283H17.6252L13.1252 34.9997L8.6251 30.4283H3V3Z" stroke="black"
+                    stroke-width="4.57138" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M19.8755 16.7145H21.0006M27.7507 16.7145H28.8757M12.0004 16.7145H13.1254" stroke="black"
+                    stroke-width="4.57138" stroke-linecap="round" />
+                </svg>
+
+              </span>
+              <h3 class="pt-4 fs-md1 fw-bold font-recharge text-black">Remote Access and File Management</h3>
+              <p class="fs-sm1 fw-normal font-poppins text-black"> Imagine you're at work, and you realize you forgot to
+                bring an important file stored on your desktop
+                computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and
+                request access to your computer. </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 d-flex gap-5 gap-sm-0 flex-column align-content-lg-end align-items-center  flex-wrap mt-features">
+          <div class="features-card mb-lg-200 mb-sm-50 ">
+            <span class="pb-2"><svg width="43" height="40" viewBox="0 0 43 40" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.7197 11.5176V24.3148L28.1302 30.5002L29.9022 27.9407L21.0422 22.8218V11.5176H17.7197Z"
+                  fill="black" />
+                <path
+                  d="M35.2626 18.6713C35.5965 20.7912 35.4493 22.9557 34.8311 25.0156C34.2129 27.0755 33.1384 28.9819 31.6817 30.6036C30.2249 32.2253 28.4205 33.5237 26.3926 34.4094C24.3647 35.2951 22.1616 35.7471 19.9349 35.7343C11.2964 35.7343 4.42998 29.1224 4.42998 20.8042C4.42998 12.4859 11.2964 5.87403 19.9349 5.87403C21.4854 5.87403 22.9694 6.08731 24.3649 6.49256V2.09884C22.9473 1.77891 21.4632 1.60828 19.9349 1.60828C8.85995 1.60828 0 10.1398 0 20.8042C0 31.4685 8.85995 40 19.9349 40C22.7428 40.0113 25.5212 39.4488 28.0868 38.3498C30.6523 37.2508 32.9465 35.6402 34.8179 33.6245C36.6894 31.6087 38.0955 29.2337 38.9434 26.656C39.7914 24.0784 40.0618 21.357 39.7369 18.6713H35.2626Z"
+                  fill="black" />
+                <path
+                  d="M36.3551 6.39863V0H31.9251V6.39863H25.2802V10.6644H31.9251V17.063H36.3551V10.6644H43.0001V6.39863H36.3551Z"
+                  fill="black" />
+              </svg>
+
+            </span>
+            <h3 class="pt-4 fs-md1 fw-bold font-recharge text-black">Remote Access and File Management</h3>
+            <p class="fs-sm1 fw-normal font-poppins text-black"> Imagine you're at work, and you realize you forgot to
+              bring an important file stored on your desktop
+              computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and
+              request access to your computer. </p>
+          </div>
+          <div class="features-card">
+            <span class="pb-2"><svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.5556 6.44444L22 2M13.1111 30.8889L30.8889 13.1111M22 42L26.4444 37.5556M32 37.5556C33.4734 37.5556 34.8865 36.9702 35.9284 35.9284C36.9702 34.8865 37.5556 33.4734 37.5556 32C37.5556 30.5266 36.9702 29.1135 35.9284 28.0716C34.8865 27.0298 33.4734 26.4444 32 26.4444C30.5266 26.4444 29.1135 27.0298 28.0716 28.0716C27.0298 29.1135 26.4444 30.5266 26.4444 32C26.4444 33.4734 27.0298 34.8865 28.0716 35.9284C29.1135 36.9702 30.5266 37.5556 32 37.5556ZM12 17.5556C13.4734 17.5556 14.8865 16.9702 15.9284 15.9284C16.9702 14.8865 17.5556 13.4734 17.5556 12C17.5556 10.5266 16.9702 9.1135 15.9284 8.07163C14.8865 7.02976 13.4734 6.44444 12 6.44444C10.5266 6.44444 9.1135 7.02976 8.07163 8.07163C7.02976 9.1135 6.44444 10.5266 6.44444 12C6.44444 13.4734 7.02976 14.8865 8.07163 15.9284C9.1135 16.9702 10.5266 17.5556 12 17.5556ZM7.55556 42C9.02898 42 10.4421 41.4147 11.4839 40.3728C12.5258 39.3309 13.1111 37.9179 13.1111 36.4444C13.1111 34.971 12.5258 33.5579 11.4839 32.5161C10.4421 31.4742 9.02898 30.8889 7.55556 30.8889C6.08213 30.8889 4.66905 31.4742 3.62718 32.5161C2.58532 33.5579 2 34.971 2 36.4444C2 37.9179 2.58532 39.3309 3.62718 40.3728C4.66905 41.4147 6.08213 42 7.55556 42ZM36.4444 13.1111C37.9179 13.1111 39.3309 12.5258 40.3728 11.4839C41.4147 10.4421 42 9.02898 42 7.55556C42 6.08213 41.4147 4.66905 40.3728 3.62718C39.3309 2.58532 37.9179 2 36.4444 2C34.971 2 33.5579 2.58532 32.5161 3.62718C31.4742 4.66905 30.8889 6.08213 30.8889 7.55556C30.8889 9.02898 31.4742 10.4421 32.5161 11.4839C33.5579 12.5258 34.971 13.1111 36.4444 13.1111Z"
+                  stroke="black" stroke-width="3.55556" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </span>
+            <h3 class="pt-4 fs-md1 fw-bold font-recharge text-black">Remote Access and File Management</h3>
+            <p class="fs-sm1 fw-normal font-poppins text-black"> Imagine you're at work, and you realize you forgot to
+              bring an important file stored on your desktop
+              computer at home. No worries! Simply open the Nexai app on your phone, initiate a call with Nexai, and
+              request access to your computer. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blockchain section -->
+  <section id="nexchat" class="pt-5 mt-sm-3 overflow-x-clip position-relative ">
+    <div class="blockchain-ellipse1 d-none d-lg-flex "></div>
+    <div class="blockchain-ellipse2 d-none d-lg-flex"></div>
+    <img class="block-circular1" src="./assets/images/circular-img.png" alt="circular-img">
+    <img class="block-circular2" src="./assets/images/circular-img.png" alt="circular-img">
+    <div class="container pt-lg-5 mt-md-5">
+      <h2 class="text-blue font-recharge fw-bold fs-lg1 text-center">Blockchain & AI technology</h2>
+      <p class="fs-sm1 fw-normal font-poppins pt-3 pb-md-5 text-grey mx-auto max-w-997 text-center">Nexai is an advanced
+        home
+        assistant that will
+        revolutionize the
+        way we
+        interact with our smart devices at home.
+        Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and
+        efficient user experience.</p>
+      <h3 class="fs-md1 pb-5 font-recharge fw-bold text-center mx-auto max-w-684 pt-5 text-white">By building the
+        software on
+        blockchain, Nexai
+        provides the following
+        advantages
+      </h3>
+    </div>
+    <div class="block-container container pt-3 ms_auto">
+      <div class="blockchain-slider gap-5">
+        <div class="blockchain-cards ml-10 w-100 d-flex flex-column align-items-center pt-70">
+          <h3 class="font-recharge fs-lg2 text-white fw-bold text-center circle pt-2  m-0 ">1</h3>
+          <h4 class="font-recharge fw-bold fs-md1 text-center max-w-212 m-0 text-white pt-4 mt-2">Security and
+            Privacy
+          </h4>
+        </div>
+        <div class="blockchain-cards ml-10 mt-lg-100 w-100 d-flex flex-column align-items-center pt-70">
+          <h3 class="font-recharge fs-lg2 text-white fw-bold text-center circle pt-2  m-0 ">2</h3>
+          <h4 class="font-recharge fw-bold fs-md1 text-center max-w-212 m-0 text-white pt-4 mt-2">Security and
+            Privacy
+          </h4>
+        </div>
+        <div class="blockchain-cards ml-10 w-100 d-flex flex-column align-items-center pt-70">
+          <h3 class="font-recharge fs-lg2 text-white fw-bold text-center circle pt-2  m-0 ">3</h3>
+          <h4 class="font-recharge fw-bold fs-md1 text-center max-w-212 m-0 text-white pt-4 mt-2">Security and
+            Privacy
+          </h4>
+        </div>
+        <div class="blockchain-cards ml-10 mt-lg-100 w-100 d-flex flex-column align-items-center pt-70">
+          <h3 class="font-recharge fs-lg2 text-white fw-bold text-center circle pt-2  m-0 ">4</h3>
+          <h4 class="font-recharge fw-bold fs-md1 text-center max-w-212 m-0 text-white pt-4 mt-2">Security and
+            Privacy
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- NexAi does all this  -->
+  <section id="marketplace" class="overflow-x-clip position-relative  mt-lg-200  pt-md-5 pt-5">
+    <div class="nexai-ellipse d-none  d-lg-flex "></div>
+    <div class="d-flex flex-column mx-auto justify-content-center max-w-997">
+      <h2 class="fs-4xl fw-bold lh-5 font-recharge text-blue text-center">NexAi does all this. And more.
+      </h2>
+      <p class="font-poppins fw-normal pb-lg-4 lh-2 fs-base pt-16 text-grey text-center mb-70">Nexai is an advanced
+        home assistant that will revolutionize the way we interact with our smart devices at home. Powered
+        by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and
+        efficient user experience.</p>
+    </div>
+    <div class="slider mt-60">
+      <div class="slide-track pb-5">
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <h2 class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on light</h2>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, set alarm of 5:00 am</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on music</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, is the front door
+            locked?</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn of AC.</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, Turn on TV</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, Lock
+            the front door</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, Turn on light</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, Turn on music</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, set
+            alarm of 5:00 am</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge fw-bold lh-3 text-center px-5">NexAi, Turn on light</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider2">
+      <div class="slide-track2 secondTrack pb-5">
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn on light</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, set alarm of 5:00 am</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn on music</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, is the front door
+            locked?</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn of AC.</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn on TV</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Lock
+            the front door</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn on light</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn on music</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, set
+            alarm of 5:00 am</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-lg text-white font-recharge lh-3 fw-bold text-center px-5">NexAi, Turn on light</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="slide-track pb-5">
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on light</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, set alarm of 5:00 am</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on music</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, is the front door
+            locked?</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn of AC.</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on TV</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Lock
+            the front door</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on light</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on music</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, measure this table</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, set
+            alarm of 5:00 am</p>
+        </div>
+        <div class="sliderCard d-flex justify-content-center align-items-center">
+          <p class="fs-2xl text-white font-recharge lh-3 text-center px-5">NexAi, Turn on light</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overflow-x-clip position-relative ">
+    <div class="what-ellipse1 d-none d-lg-flex "></div>
+    <div class="what-ellipse2  d-none d-lg-flex "></div>
+    <div id="about" class="max-w-1340 mx-auto border border-white  rounded-4 pt-5 mt-lg-160  pt-sm-5">
+      <div class="what-bg p-3 px-lg-100 py-lg-160">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 col-12 my-auto">
+            <h2 class="fs-lg1 fw-bold font-recharge text-blue">
+              What is NexAi?
+            </h2>
+            <p class="fs-sm1 fw-normal font-poppins text-grey max-w-564 pb-2">
+              Beyond its convenience, Nexai revolutionizes the way you interact
+              with your home environment. It enhances productivity, efficiency,
+              and overall well-being. From managing your schedules to
+              transforming the way you experience smart living, Nexai opens up a
+              world of possibilities.
+            </p>
+            <p class="fs-sm1 fw-normal font-poppins text-grey max-w-564 pb-5">
+              Nexai's software can be installed on all your smart devices,
+              including smartphones, computers, smart TVs, and kitchen
+              appliances. It acts as a centralized control hub, allowing you to
+              manage and interact with all your devices seamlessly. Whether it's
+              adjusting the temperature, turning on appliances, or even
+              accessing files on your home computer from anywhere, Nexai
+              empowers you with effortless control.
+            </p>
+            <button class="common-btn bg-blue text-black fs-md fw-bold font-recharge">Learn More</button>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 col-12">
+            <img class="w-100 pb-4 pb-lg-0" src="./assets/images/AI-img.png" alt="ai" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="token" class="pt-5 mt-md-5 overflow-x-clip position-relative ">
+    <div class="utility-ellipse1 d-none d-lg-flex "></div>
+    <div class="utility-ellipse2 d-none d-lg-flex "></div>
+    <div class="utility-ellipse3 d-none d-lg-flex "></div>
+    <div class="utility-ellipse4 d-none d-lg-flex "></div>
+    <img class="utility-circular1" src="./assets/images/circular-img.png" alt="circle">
+    <img class="utility-circular2" src="./assets/images/circular-img.png" alt="circle">
+    <div class="container pt-lg-5">
+      <h2 class="fs-lg1 fw-bold lh-5 font-recharge text-blue m-0 text-center">
+        NexAI Token & utility
+      </h2>
+      <div class="row py-lg-75 py-md-5 py-3 align-items-end">
+        <div class="col-lg-6 col-sm-12">
+          <img class="w-100 max-w-612" src="./assets/images/utility-Img.png" alt="utility-Img" />
+        </div>
+        <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-start overflow-y-scroll h-utility my-scroll">
+          <div class="max-w-612 utility-line position-relative">
+            <div class="d-flex flex-column">
+              <div class="d-flex flex-column pl-lg-5 ms-sm-4 ps-4  mt-lg-5 mt-sm-4 pt-3 white-circle position-relative">
+                <p class="font-recharge fw-bold text-white fs-lg lh-3 pb-3">
+                  Purchasing Nexai Products
+                </p>
+                <p class="font-poppins fs-sm1 text-grey fw-normal lh-2">
+                  Nex AI tokens will be the primary currency for acquiring
+                  Nexai's extensive range of software solutions, hardware
+                  devices, including drones and sensors, and other smart home
+                  products available on the Nexai marketplace. Users can
+                  confidently make purchases using Nex tokens, enjoying the
+                  convenience and flexibility of a token-based payment system.
+                </p>
+              </div>
+              <div class="d-flex flex-column pl-lg-5 ms-sm-4 ps-4 mt-lg-5 mt-sm-4 pt-3 white-circle position-relative">
+                <p class="font-recharge fw-bold text-white fs-lg lh-3 pb-3">
+                  Accessing Exclusive Content
+                </p>
+                <p class="font-poppins fs-sm1 text-grey fw-normal lh-2">
+                  By holding Nex AI tokens, users will gain privileged access
+                  to exclusive content within the Nexai platform. These tokens
+                  will unlock premium features, advanced functionalities, and
+                  specialized services, enabling users to fully explore and
+                  enjoy the enhanced capabilities of Nexai's ecosystem.
+                </p>
+              </div>
+              <div class="d-flex flex-column pl-lg-5 ms-sm-4 ps-4 mt-lg-5 mt-sm-4 pt-3 white-circle position-relative">
+                <p class="font-recharge fw-bold text-white fs-lg lh-3 pb-3">
+                  Loyalty and Rewards
+                </p>
+                <p class="font-poppins fs-sm1 text-grey fw-normal lh-2 ">
+                  The Nexai ecosystem will feature a robust loyalty program,
+                  rewarding users with Nex AI tokens for their active
+                  engagement, ongoing participation, and dedicated usage of
+                  Nexai's products and services. Token holders will have the
+                  opportunity to redeem their accumulated rewards for
+                  discounts, incentives, or exclusive offers, fostering a
+                  strong sense of loyalty and encouraging continued
+                  involvement.
+                </p>
+              </div>
+              <div class="d-flex flex-column pl-lg-5 ms-sm-4 ps-4 mt-lg-5 mt-sm-4 pt-3 white-circle position-relative">
+                <p class="font-recharge fw-bold text-white fs-lg lh-3 pb-3">
+                  Participating in Governance
+                </p>
+                <p class="font-poppins fs-sm1 text-grey fw-normal lh-2">
+                  Nex AI token holders will play a vital role in the
+                  governance of the Nexai ecosystem. Through voting
+                  mechanisms, token holders will have a direct say in the
+                  decision-making process. They can express their opinions,
+                  vote on proposed changes or improvements, and actively
+                  contribute to shaping the future development and direction
+                  of the Nexai ecosystem.
+                </p>
+              </div>
+              <div class="d-flex flex-column pl-lg-5 ms-sm-4 ps-4 mt-lg-5 mt-sm-4 pt-3 white-circle position-relative">
+                <p class="font-recharge fw-bold text-white fs-lg lh-3 pb-3">
+                  Peer-to-Peer Transactions
+                </p>
+                <p class="font-poppins fs-sm1 text-grey fw-normal lh-2">
+                  Nex AI tokens will enable seamless peer-to-peer transactions
+                  within the Nexai community. Users will have the ability to
+                  exchange tokens with others for various purposes, such as
+                  purchasing pre-owned Nexai devices, engaging in token
+                  trading activities, or conducting value exchanges directly
+                  within the ecosystem, all with the utmost security and
+                  convenience.
+                </p>
+              </div>
+              <div class="d-flex flex-column pl-lg-5 ms-sm-4 ps-4 mt-lg-5 mt-sm-4 pt-3 white-circle position-relative">
+                <p class="font-recharge fw-bold text-white fs-lg lh-3 pb-3">
+                  Token Staking and Rewards
+                </p>
+                <p class="font-poppins fs-sm1 text-grey fw-normal lh-2">
+                  Nex AI tokens will support staking mechanisms, allowing
+                  users to lock up their tokens for a specified period. By
+                  staking their tokens, users will earn additional rewards,
+                  such as interest, dividends, or other incentives, further
+                  incentivizing token holding and fostering long-term
+                  engagement and loyalty.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between align-items-center pt-lg-250 pt-5 pt-md-5 mt-md-4 pb-5 pb-lg-0 flex-wrap">
+        <h2 class="fw-bold fs-lg1 font-recharge text-white max-w-517">
+          Ready to get started
+          <span class="text-blue">Talk to us Today</span>
+        </h2>
+        <div>
+          <button class="common-btn bg-blue text-black fs-md fw-bold font-recharge"> Get Started </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="container My-container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-8 col-sm-12">
+          <a href="#" class="fs-lg1 fw-bold font-recharge text-blue">Nex<span class="text-white">AI</span></a>
+          <p class="fw-bold fs-sm1 font-recharge text-grey max-w-356">Nullam viverra natoque amet et sed scelerisque
+            viverra fringilla platea. Ullamcorper.</p>
+          <div class="pt-4 gap-2">
+            <a class="social-icons" href="https://www.facebook.com/" targrt="_blank"><svg width="38" height="38"
+                viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.65 34.0822L20.65 34.366L20.9316 34.3302C24.8274 33.8345 28.3884 31.8739 30.8906 28.847C33.3929 25.82 34.6487 21.9539 34.4027 18.0343C34.1568 14.1147 32.4276 10.4358 29.5667 7.7454C26.7057 5.05497 22.9276 3.55487 19.0003 3.55L19.0002 3.55C15.0681 3.54707 11.2828 5.04351 8.41566 7.7344C5.54851 10.4253 3.81523 14.1081 3.569 18.0325C3.32277 21.9569 4.58212 25.8275 7.09044 28.8557C9.59877 31.8838 13.1673 33.8417 17.0689 34.3303L17.35 34.3655V34.0822V22.8V22.55H17.1H13.55V19.25H17.1H17.35V19V15.8574C17.35 13.3377 17.6137 12.4623 18.0807 11.5839L18.081 11.5834C18.544 10.7085 19.2598 9.99333 20.1351 9.53107L20.1366 9.53028C20.8177 9.16477 21.6798 8.93519 23.2396 8.83559C23.7965 8.80005 24.5159 8.83783 25.4019 8.95588V12.0981H24.7019C23.8292 12.0981 23.2023 12.1184 22.7366 12.1692C22.2724 12.2197 21.949 12.3022 21.6938 12.4384C21.3927 12.5939 21.1474 12.8393 20.992 13.1405C20.7312 13.6321 20.6519 14.1202 20.6519 15.8555V19V19.25H20.9019H25.3317L24.5067 22.55H20.9019H20.6519L20.6519 22.8L20.65 34.0822ZM19 37.75C8.64437 37.75 0.25 29.3556 0.25 19C0.25 8.64437 8.64437 0.25 19 0.25C29.3556 0.25 37.75 8.64437 37.75 19C37.75 29.3556 29.3556 37.75 19 37.75Z"
+                  fill="#02CDCF" stroke="black" stroke-width="0.5" />
+              </svg>
+            </a>
+            <a class="social-icons" href="https://twitter.com/?lang=en" targrt="_blank"><svg width="40" height="40"
+                viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.0012 1C9.52476 1 1 9.52239 1 20C1 30.4776 9.52476 39 20.0012 39C30.4776 39 39.0024 30.4776 39.0024 20C39.0024 9.52239 30.4776 1 20.0012 1ZM20.0012 37.7344C10.2227 37.7344 2.26793 29.7785 2.26793 20C2.26793 10.2215 10.2227 2.26556 20.0012 2.26556C29.7796 2.26556 37.7344 10.2215 37.7344 20C37.7344 29.7785 29.7796 37.7344 20.0012 37.7344Z"
+                  fill="#02CDCF" stroke="#02CDCF" />
+                <path
+                  d="M30.4221 14.1306C30.5535 13.8873 30.6618 13.6322 30.7456 13.3686C30.7844 13.2464 30.7852 13.1153 30.7478 12.9926C30.7105 12.8699 30.6369 12.7614 30.5366 12.6814C30.4364 12.6014 30.3142 12.5537 30.1863 12.5446C30.0584 12.5355 29.9307 12.5654 29.8201 12.6304C29.2129 12.9911 28.5556 13.2599 27.8696 13.4279C27.0369 12.6763 25.9554 12.2597 24.8337 12.2583C24.2243 12.2588 23.6213 12.3823 23.0607 12.6215C22.5002 12.8606 21.9937 13.2105 21.5717 13.6501C21.1497 14.0898 20.8208 14.6101 20.6047 15.1799C20.3886 15.7497 20.2898 16.3573 20.3142 16.9662C17.6492 16.6307 15.2156 15.2822 13.5183 13.2004C13.4533 13.1215 13.3702 13.0595 13.2761 13.0196C13.1819 12.9797 13.0796 12.9632 12.9777 12.9713C12.8758 12.9794 12.7774 13.0121 12.6908 13.0664C12.6042 13.1207 12.532 13.1951 12.4803 13.2833C12.0916 13.9504 11.8804 14.7059 11.8667 15.4778C11.853 16.2497 12.0373 17.0122 12.4021 17.6926C12.3126 17.7077 12.2267 17.739 12.1485 17.7851C12.0527 17.8462 11.9738 17.9304 11.9191 18.03C11.8644 18.1296 11.8357 18.2414 11.8357 18.355C11.8357 19.7 12.4341 20.9347 13.3986 21.7737L13.3572 21.8152C13.2843 21.8976 13.2343 21.9975 13.2118 22.1051C13.1894 22.2128 13.1954 22.3244 13.2292 22.429C13.4303 23.0565 13.7662 23.6324 14.2132 24.1165C14.6602 24.6006 15.2077 24.9811 15.8172 25.2315C14.5654 25.8422 13.1644 26.0803 11.7811 25.9176C11.639 25.9031 11.496 25.9362 11.3746 26.0117C11.2532 26.0871 11.1603 26.2008 11.1104 26.3347C11.0625 26.4696 11.0616 26.6168 11.1079 26.7523C11.1541 26.8878 11.2448 27.0037 11.3652 27.0812C13.2458 28.2882 15.4336 28.9294 17.6681 28.9286C24.9913 28.9286 29.3687 22.98 29.3687 17.2293L29.3675 17.035C30.0772 16.4809 30.6937 15.8168 31.1935 15.0679C31.2692 14.9547 31.3064 14.8201 31.2997 14.6841C31.2929 14.5481 31.2425 14.4178 31.156 14.3127C31.0695 14.2075 30.9514 14.133 30.8192 14.1002C30.687 14.0674 30.5478 14.0781 30.4221 14.1306ZM28.3543 16.2102C28.2683 16.272 28.1992 16.3544 28.1532 16.4499C28.1073 16.5453 28.086 16.6507 28.0912 16.7565C28.0983 16.9129 28.1019 17.0717 28.1019 17.2281C28.1019 22.3567 24.1998 27.6619 17.6693 27.6619C16.5046 27.6624 15.3481 27.4669 14.2483 27.0836C15.5655 26.8312 16.8029 26.2663 17.8565 25.4365C17.9591 25.3556 18.0342 25.245 18.0715 25.1199C18.1089 24.9947 18.1066 24.8611 18.0651 24.7372C18.0236 24.6134 17.9449 24.5054 17.8397 24.428C17.7345 24.3506 17.6079 24.3076 17.4774 24.3048C16.9664 24.2951 16.4649 24.1654 16.0133 23.9262C15.5617 23.687 15.1727 23.345 14.8775 22.9279C15.1773 22.9077 15.4712 22.858 15.7568 22.7809C15.895 22.7439 16.0166 22.6612 16.1017 22.5462C16.1869 22.4312 16.2305 22.2908 16.2256 22.1478C16.2206 22.0048 16.1673 21.8677 16.0745 21.7589C15.9816 21.65 15.8545 21.5759 15.7141 21.5486C15.137 21.4312 14.6028 21.1591 14.1684 20.7615C13.734 20.3639 13.4159 19.8556 13.2482 19.2912C13.5634 19.3706 13.8869 19.4168 14.2104 19.4274C14.4888 19.4263 14.7472 19.2556 14.8337 18.9878C14.9202 18.72 14.8183 18.4249 14.5824 18.2685C14.0249 17.897 13.5956 17.3625 13.3532 16.7379C13.1107 16.1133 13.067 15.4291 13.228 14.7788C15.2864 16.8908 18.0658 18.1484 21.011 18.3005C21.2195 18.3017 21.402 18.2271 21.5288 18.0742C21.6556 17.9213 21.7042 17.7187 21.6592 17.5244C21.4971 16.8264 21.5696 16.0945 21.8654 15.4419C22.1612 14.7893 22.6639 14.2524 23.2956 13.9142C23.9274 13.5761 24.6529 13.4556 25.36 13.5714C26.0671 13.6872 26.7164 14.0328 27.2072 14.5548C27.2808 14.6333 27.3731 14.6918 27.4756 14.7247C27.578 14.7577 27.6871 14.7641 27.7926 14.7432C27.9881 14.7041 28.1813 14.6591 28.3721 14.6069C28.2861 14.6713 28.1967 14.731 28.1043 14.7859C27.9814 14.8611 27.8878 14.976 27.839 15.1116C27.7901 15.2472 27.7889 15.3953 27.8356 15.5317C27.8822 15.668 27.9739 15.7844 28.0956 15.8617C28.2172 15.9389 28.3616 15.9724 28.5048 15.9566L28.7205 15.9294C28.6017 16.0272 28.4796 16.1209 28.3543 16.2102Z"
+                  fill="#02CDCF" />
+              </svg>
+            </a>
+            <a class="social-icons" href=" https://telegram.org/" targrt="_blank"><svg width="38" height="38"
+                viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30.4026 11.3982L5.70264 19.9482L14.2526 22.7982M30.4026 11.3982L14.2526 22.7982M30.4026 11.3982L22.8026 31.3482L14.2526 22.7982"
+                  stroke="#02CDCF" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M37.0023 19C37.0023 28.9414 28.9437 37 19.0023 37C9.0609 37 1.00232 28.9414 1.00232 19C1.00232 9.05859 9.0609 1 19.0023 1C28.9437 1 37.0023 9.05859 37.0023 19Z"
+                  stroke="#02CDCF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 pt-lg-5 mt-md-5">
+          <div class="row pt-lg-5 pt-4 ">
+            <div class="col-6">
+              <ul>
+                <li><a href="" class="fw-bold font-recharge fs-md text-white">Quick links</a></li>
+                <li class="pt-sm-4 pt-2"><a href="#home" class="fw-bold fs-sm1 font-recharge text-grey">Home</a></li>
+                <li class="pt-sm-4 pt-2"><a href="#features" class="fw-bold fs-sm1 font-recharge text-grey">Features</a>
+                </li>
+                <li class="pt-sm-4 pt-2"><a href="#marketplace"
+                    class="fw-bold fs-sm1 font-recharge text-grey">Marketplace</a></li>
+                <li class="pt-sm-4 pt-2"><a href="#token" class="fw-bold fs-sm1 font-recharge text-grey">Tokens</a></li>
+                <li class="pt-sm-4 pt-2"><a href="#nexchat" class="fw-bold fs-sm1 font-recharge text-grey">NexChat</a>
+                </li>
+                <li class="pt-sm-4 pt-2"> <a href="" class="fw-bold fs-sm1 font-recharge text-grey">About</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li><a href="" class="fw-bold font-recharge fs-md text-white">Information's</a></li>
+                <li class="pt-sm-4 pt-2"><a href="" class="fw-bold fs-sm1 font-recharge text-grey">Contact</a></li>
+                <li class="pt-sm-4 pt-2"><a href="" class="fw-bold fs-sm1 font-recharge text-grey">Phone</a></li>
+                <li class="pt-sm-4 pt-2"><a href="" class="fw-bold fs-sm1 font-recharge text-grey">terms</a></li>
+                <li class="pt-sm-4 pt-2"><a href="" class="fw-bold fs-sm1 font-recharge text-grey">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overflow-hidden">
+        <hr class="footer-line" />
+      </div>
+      <p class="fw-bold fs-sm1 font-recharge text-white py-3 text-center">@Copyright.nexai</p>
+    </div>
+    <!-- backtotop -->
+    <div>
+      <img src="./assets/images/up-arrow.png" alt="backtotop" id="backtop"
+        class="backto-top position-fixed bottom-0 end-0 m-4 z-5  " onclick="backtop()">
+    </div>
+
+    <!-- preloader -->
+    <div id="preloader">
+      <div
+        class="loader_bg bg-black vh-100 d-flex align-items-center justify-content-center  position-fixed  top-0 start-0 w-100 z-6">
+        <div class="d-flex align-items-center justify-content-center  ">
+          <div class="preloader-animation">
+            <h2 class="fs-lg1 fw-bold text-white font-recharge">Nex<span class="text-blue">AI</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+  <script>
+    $('.blockchain-slider').slick({
+      dots: false,
+      arrows: false,
+      infinite: true,
+      speed: 1000,
+      autoplay: true,
+      autoplaySpeed: 0,
+      // CSS: 'linear',
+      slidesToShow: 3.2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1380,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2, infinite: true,
+          }
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1, infinite: true,
+          }
+        },
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1, infinite: true,
+          }
+        }
+
+      ]
+    });
+  </script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
