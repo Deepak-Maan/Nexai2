@@ -450,6 +450,12 @@ ul {
     position: relative;
     /* width: 960px; */
 }
+.footer-links{
+transition: .4s;
+}
+.footer-links:hover{
+color: var(--blue);
+}
 
 .slide-track {
     animation: scroll 40s linear infinite;
